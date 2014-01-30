@@ -1,0 +1,1 @@
+Hey Git, record this empty folder! Delete me after clone!
