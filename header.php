@@ -22,6 +22,7 @@
   <meta name="keywords" content="keyword1, keyword2">
 
   <!-- Styles -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" rel="stylesheet">
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
@@ -34,3 +35,8 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+  <header class="site-header">
+    <h1><?php bloginfo('name'); ?></h1>
+    <p><?php bloginfo('description'); ?></p>
+  </header>

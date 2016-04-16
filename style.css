@@ -5,3 +5,22 @@ Author: YOUR_NAME
 Description: DESCRIPTION
 Version: 1.0
 */
+
+body {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-bottom: 2px solid #1a1a1a;
+}
+.site-header h1 {
+  font-size: 3em;
+}
+.site-header h1, .site-header p {
+  margin: 0;
+}
